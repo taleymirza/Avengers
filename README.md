@@ -5,4 +5,4 @@ This demo is for TechKaro class created with CodeSandbox for explaining API fetc
 https://developer.marvel.com/
 
 ## Demo
-On Sandbox linked
+https://63n2b.csb.app/ On Sandbox linked
