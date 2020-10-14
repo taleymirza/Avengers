@@ -6,3 +6,6 @@ https://developer.marvel.com/
 
 ## Demo
 https://63n2b.csb.app/ On Sandbox linked
+
+## Result
+![Image](https://github.com/taleymirza/avengers/blob/main/h.png)
