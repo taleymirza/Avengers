@@ -1,6 +1,7 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 
-const AvengerItem = ({ avenger }) => {
+const AvengerItem = ({ avenger, history }) => {
   return (
     <li className="mt-10 md:mt-0">
       <div className="flex">
@@ -9,6 +10,7 @@ const AvengerItem = ({ avenger }) => {
             <img
               src={`${avenger.thumbnail.path}.${avenger.thumbnail.extension}`}
               alt=""
+              onClick={() => history.push(`/avengers/${avenger.id}`)}
             />
           </div>
         </div>
@@ -27,4 +29,4 @@ const AvengerItem = ({ avenger }) => {
   );
 };
 
-export default AvengerItem;
+export default withRouter(AvengerItem);
